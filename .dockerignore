@@ -1,0 +1,24 @@
+# Git and IDE
+.git
+.github
+.gitignore
+.cursor
+.venv
+venv
+__pycache__
+*.pyc
+.pytest_cache
+.mypy_cache
+*.egg-info
+
+# Data (mount at runtime in production)
+data/
+
+# Scripts (not needed in API image)
+scripts/
+docs/
+*.md
+!README.md
+
+# Tests (optional: include if you run tests in image)
+tests/
